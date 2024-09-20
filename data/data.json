@@ -817,8 +817,8 @@
             "teacher": "ΣΤΑΜΑΤΑΚΗΣ",
             "teaching_slots": {
                 "monday": {
-                    "start": 0,
-                    "end": 13,
+                    "start": 10.45,
+                    "end": 13.15,
                     "classroom": "Κ.206"
                 }
             }
