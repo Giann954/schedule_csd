@@ -57,13 +57,12 @@ function getPreviousDateWithDay(day) {
   return today;
 }
 
-function parseTimeRange(rangeStr) {
-  // Expects format like "9-11" or "11-1"
-  let [start, end] = rangeStr.split('-').map(Number);
-  // Convert PM times if needed, assuming everything < 8 is PM (naive but works for typical school schedules)
-  if (start < 8) start += 12;
-  if (end <= start) end += 12; // handle ranges like 11-1
-  return start; // just return the start for sorting
+function parseTimeRange(hour) {
+  // Assume anything between 1–7 is afternoon/evening (PM)
+  if (hour >= 1 && hour <= 7) {
+    return hour + 12; // 1 → 13, 3 → 15, etc.
+  }
+  return hour; // leave 8–23 alone
 }
 
 function compare_time_score(lesson1, lesson2) {
@@ -81,7 +80,8 @@ function compare_time_score(lesson1, lesson2) {
       break
     }
   }
-
+  console.log(lesson1, lesson2);
+  console.log(lesson1_time_score, lesson2_time_score);
   return lesson1_time_score - lesson2_time_score;
 }
 
