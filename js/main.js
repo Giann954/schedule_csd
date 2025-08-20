@@ -57,18 +57,27 @@ function getPreviousDateWithDay(day) {
   return today;
 }
 
+function parseTimeRange(rangeStr) {
+  // Expects format like "9-11" or "11-1"
+  let [start, end] = rangeStr.split('-').map(Number);
+  // Convert PM times if needed, assuming everything < 8 is PM (naive but works for typical school schedules)
+  if (start < 8) start += 12;
+  if (end <= start) end += 12; // handle ranges like 11-1
+  return start; // just return the start for sorting
+}
+
 function compare_time_score(lesson1, lesson2) {
   let lesson1_time_score = 0;
   let lesson2_time_score = 0;
   for (day of ["monday", "tuesday", "wednesday", "thursday", "friday"]) {
     if (day in lesson1.teaching_slots) {
-      lesson1_time_score = lesson1.teaching_slots[day].start;
+      lesson1_time_score = parseTimeRange(lesson1.teaching_slots[day].start);
       break
     }
   }
   for (day of ["monday", "tuesday", "wednesday", "thursday", "friday"]) {
     if (day in lesson2.teaching_slots) {
-      lesson2_time_score = lesson2.teaching_slots[day].start;
+      lesson2_time_score = parseTimeRange(lesson2.teaching_slots[day].start);
       break
     }
   }
