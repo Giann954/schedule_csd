@@ -390,27 +390,17 @@
                 "monday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Α.113 (ΕΡΓ/ΡΙΟ) ΔΕΥΤΕΡΑ"
+                    "classroom": "Α.113 (ΕΡΓ/ΡΙΟ)"
                 },
                 "tuesday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Α.113 ΤΡΙΤΗ"
+                    "classroom": "Α.113"
                 },
                 "thursday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Α.113 ΠΕΜΠΤΗ"
-                },
-                "wednesday": {
-                    "start": null,
-                    "end": null,
-                    "classroom": "ΤΕΤΑΡΤΗ"
-                },
-                "friday": {
-                    "start": null,
-                    "end": null,
-                    "classroom": "ΠΑΡΑΣΚΕΥΗ"
+                    "classroom": "Α.113"
                 }
             }
         },
@@ -824,27 +814,12 @@
                 "monday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Η.206 ΔΕΥΤΕΡΑ"
+                    "classroom": "Η.206"
                 },
                 "wednesday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Η.206 ΤΕΤΑΡΤΗ"
-                },
-                "tuesday": {
-                    "start": null,
-                    "end": null,
-                    "classroom": "ΤΡΙΤΗ"
-                },
-                "thursday": {
-                    "start": null,
-                    "end": null,
-                    "classroom": "ΠΕΜΠΤΗ"
-                },
-                "friday": {
-                    "start": null,
-                    "end": null,
-                    "classroom": "ΠΑΡΑΣΚΕΥΗ"
+                    "classroom": "Η.206"
                 }
             }
         },
