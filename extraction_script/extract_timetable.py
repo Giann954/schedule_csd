@@ -15,13 +15,12 @@ days_out = ('monday', 'tuesday', 'wednesday', 'thursday', 'friday')
 df = tabula.read_pdf(in_file, pages='all', multiple_tables=False, stream=True)[0]
 
 schedule = {}
-last_course = None
 
 def parse_time_slot(entry):
     """Convert '9-11 ΑΜΦ ΣΟ (ΦΡΟΝΤ)' to {'start':9, 'end':11, 'classroom':'ΑΜΦ ΣΟ (ΦΡΟΝΤ)'}."""
     if pd.isna(entry):
         return None
-    entry = str(entry).strip()
+    entry = str(entry).replace('\r(', ' ').replace(')', '').strip()
     # Separate time and classroom
     m = re.match(r'(\d+)[-:](\d+)\s*(.*)', entry)
     if m:
@@ -31,34 +30,52 @@ def parse_time_slot(entry):
         # If only a note like (ΦΡΟΝΤ), keep it in classroom with dummy time
         return {'start': None, 'end': None, 'classroom': entry}
 
-for _, row in df.iterrows():
-    code = row.iloc[0]
-    title = row.iloc[1]
-    teacher = row.iloc[2]
+for i, df in enumerate(dfs):
+    for _, row in df.iterrows():
+        code = row.iloc[0]
+        title = row.iloc[1] 
+        teacher = row.iloc[2]
+        if pd.notna(code):
+            course = {
+                "code": code,
+                "title": title,
+                "teacher": teacher,
+                "teaching_slots": {}
+            }
+            DAY_COL_START = 3  # iloc index where Monday starts
 
-    if pd.notna(code):
+            for i, day_out in enumerate(days_out):
+                cell = row.iloc[DAY_COL_START + i]
+                slot = parse_time_slot(cell)
+                if slot:
+                    course["teaching_slots"][day_out] = slot
+
+            schedule[course["code"]] = course
+            last_course = course
+
+    if df.empty:
+        cols = list(df.columns)
+        code = cols[0]
+        title = cols[1]
+        teacher = cols[2]
         course = {
-            'code': code,
-            'title': title,
-            'teacher': teacher,
-            'teaching_slots': {}
+            "code": code,
+            "title": title,
+            "teacher": teacher,
+            "teaching_slots": {}
         }
-        for day_in, day_out in zip(days_in, days_out):
-            slot = parse_time_slot(row[day_in])
+        DAY_COL_START = 3  # iloc index where Monday starts
+
+        for i, day_out in enumerate(days_out):
+            cell = cols[DAY_COL_START + i]
+            slot = parse_time_slot(cell)
+            print('slot from empty df:', slot)
             if slot:
-                course['teaching_slots'][day_out] = slot
-        schedule[code] = course
-        last_course = course
-    else:
-        # Merge info like (ΦΡΟΝΤ) to previous course
-        if last_course:
-            for day_in, day_out in zip(days_in, days_out):
-                if pd.notna(row[day_in]):
-                    extra_slot = str(row[day_in]).strip()
-                    if day_out in last_course['teaching_slots']:
-                        last_course['teaching_slots'][day_out]['classroom'] += f" {extra_slot}"
-                    else:
-                        last_course['teaching_slots'][day_out] = {'start': None, 'end': None, 'classroom': extra_slot}
+                course["teaching_slots"][day_out] = slot
+
+        if code not in schedule:
+            schedule[code] = course
+            last_course = course
 
 # Write to JS file
 data = {
@@ -70,6 +87,7 @@ with open(out_file, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
 print(f"Data extracted successfully to {out_file}")
+
 
 
 
