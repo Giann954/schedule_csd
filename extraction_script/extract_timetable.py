@@ -4,8 +4,8 @@ import json
 import re
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent
-out_file = BASE_DIR / "data.json"
+BASE_DIR = Path(__file__).resolve().parent.parent
+out_file = BASE_DIR / "data" / "data.json"
 
 # Parameters
 in_file  = 'extraction_script/WROLOGIO PROGRAMMA EAERINOY E3AMHNOY 2025-26.pdf'
@@ -91,6 +91,7 @@ with open(out_file, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
 print(f"Data extracted successfully to {out_file}")
+
 
 
 
