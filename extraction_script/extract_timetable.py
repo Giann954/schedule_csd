@@ -29,9 +29,6 @@ def parse_time_slot(entry):
     if m:
         start, end, room = m.groups()
         return {'start': int(start), 'end': int(end), 'classroom': room.strip()}
-    else:
-        # If only a note like (ΦΡΟΝΤ), keep it in classroom with dummy time
-        return {'start': None, 'end': None, 'classroom': entry}
 
 for i, df in enumerate(dfs):
     for _, row in df.iterrows():
@@ -90,6 +87,7 @@ with open(out_file, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
 print(f"Data extracted successfully to {out_file}")
+
 
 
 
