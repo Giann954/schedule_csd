@@ -2,10 +2,14 @@ import tabula
 import pandas as pd
 import json
 import re
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent
+out_file = BASE_DIR / "data.json"
 
 # Parameters
 in_file  = 'extraction_script/WROLOGIO PROGRAMMA EAERINOY E3AMHNOY 2025-26.pdf'
-out_file = 'data.json'
+out_file = BASE_DIR / "data.json"
 version = "30/01/2026"  # or parse dynamically from the PDF
 
 days_in  = ('ΔΕΥΤΕΡΑ', 'ΤΡΙΤΗ', 'ΤΕΤΑΡΤΗ', 'ΠΕΜΠΤΗ', 'ΠΑΡΑΣΚΕΥΗ')
@@ -87,6 +91,7 @@ with open(out_file, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
 print(f"Data extracted successfully to {out_file}")
+
 
 
 
