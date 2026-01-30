@@ -96,9 +96,11 @@ function render_lesson(lesson) {
       line += '<td class="text-center">'
       if (day in lesson.teaching_slots) {
         let slot = lesson.teaching_slots[day];
-        line += slot.start + "-" + slot.end + "<br>" + slot.classroom;
-        if ("comment" in slot)
-          line += " " + slot.comment
+        if(slot.start !== 'NULL'){
+          line += slot.start + "-" + slot.end + "<br>" + slot.classroom;
+          if ("comment" in slot)
+            line += " " + slot.comment
+        }
       }
       line += '</td>';
 
