@@ -69,9 +69,10 @@ for i, df in enumerate(dfs):
         for i, day_out in enumerate(days_out):
             cell = cols[DAY_COL_START + i]
             slot = parse_time_slot(cell)
-            print('slot from empty df:', slot)
             if slot:
                 course["teaching_slots"][day_out] = slot
+            else:
+                course["teaching_slots"][day_out] = {}
 
         if code not in schedule:
             schedule[code] = course
@@ -87,6 +88,7 @@ with open(out_file, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
 print(f"Data extracted successfully to {out_file}")
+
 
 
 
