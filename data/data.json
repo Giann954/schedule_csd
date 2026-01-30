@@ -23,11 +23,13 @@
             "title": "Απειροστικός Λογισμός ΙΙ",
             "teacher": "ΠΙΤΙΚΑΚΗΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 3,
                     "end": 5,
                     "classroom": "ΑΜΦ Α"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 5,
                     "end": 7,
@@ -45,11 +47,13 @@
             "title": "Διακριτά Μαθηματικά",
             "teacher": "ΑΡΓΥΡΟΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 1,
                     "end": 3,
@@ -72,11 +76,13 @@
                     "end": 3,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "ΑΜΦ ΣΟ.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 3,
                     "end": 5,
@@ -94,11 +100,13 @@
                     "end": 7,
                     "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 5,
                     "end": 7,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 5,
                     "end": 7,
@@ -116,6 +124,7 @@
                     "end": 5,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 3,
                     "end": 5,
@@ -125,7 +134,8 @@
                     "start": 3,
                     "end": 5,
                     "classroom": "ΑΜΦ ΣΟ.1"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-209": {
@@ -133,16 +143,19 @@
             "title": "Αγγλικά IV",
             "teacher": "ΡΙΖΟΠΟΥΛΟΥ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "Η.204"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "Η.204.1"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-215": {
@@ -150,11 +163,13 @@
             "title": "Εφαρμοσμένα Μαθηματικά για Μηχανικούς",
             "teacher": "ΣΤΥΛΙΑΝΟΥ / ΚΑΦΕΝΤΖΗΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 9,
                     "end": 11,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 9,
                     "end": 11,
@@ -177,11 +192,14 @@
                     "end": 3,
                     "classroom": "Α.125"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "Α.125.1"
-                }
+                },
+                "thursday": {},
+                "friday": {}
             }
         },
         "ΗΥ-225": {
@@ -194,11 +212,13 @@
                     "end": 1,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "ΑΜΦ ΣΟ.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 11,
                     "end": 1,
@@ -216,11 +236,13 @@
                     "end": 11,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 9,
                     "end": 11,
                     "classroom": "ΑΜΦ ΣΟ.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 9,
                     "end": 11,
@@ -260,11 +282,13 @@
                     "end": 11,
                     "classroom": "Α.113"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 9,
                     "end": 11,
                     "classroom": "Α.113.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 1,
                     "end": 3,
@@ -277,11 +301,13 @@
             "title": "Γλώσσες και Μεταφραστές",
             "teacher": "ΣΑΒΒΙΔΗΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 9,
                     "end": 11,
                     "classroom": "ΑΜΦ Α"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 9,
                     "end": 11,
@@ -299,16 +325,19 @@
             "title": "Παράλληλος Προγραμματισμός",
             "teacher": "ΠΡΑΤΙΚΑΚΗΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "Η.204"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "Η.204.1"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-351": {
@@ -316,6 +345,7 @@
             "title": "Ανάλυση και Σχεδίαση Πληροφοριακών Συστημάτων",
             "teacher": "ΜΑΡΓΕΤΗΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 11,
                     "end": 1,
@@ -330,7 +360,8 @@
                     "start": 11,
                     "end": 1,
                     "classroom": "Α.121.1"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-364": {
@@ -343,11 +374,13 @@
                     "end": 5,
                     "classroom": "ΑΜΦ Α"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 3,
                     "end": 5,
                     "classroom": "ΑΜΦ Α.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 3,
                     "end": 5,
@@ -365,6 +398,7 @@
                     "end": 1,
                     "classroom": "ΑΜΦ Α"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 11,
                     "end": 1,
@@ -374,7 +408,8 @@
                     "start": 11,
                     "end": 1,
                     "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-428": {
@@ -387,11 +422,13 @@
                     "end": 7,
                     "classroom": "Α.121"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 5,
                     "end": 7,
                     "classroom": "Α.121.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 5,
                     "end": 7,
@@ -404,16 +441,19 @@
             "title": "Εργαστήριο Τεχνολογίας και Προγραμματισμού\rΔικτύων Ι",
             "teacher": "ΠΑΠΑΔΑΚΗΣ ΣΤ.",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "Η.210"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "Η.210.1"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-446": {
@@ -421,11 +461,13 @@
             "title": "Συστήματα Εκτέλεσης Δυναμικών Γλωσσών\rΠρογραμματισμού",
             "teacher": "ΖΑΚΚΑΚ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 9,
                     "end": 11,
                     "classroom": "Η.210"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 9,
                     "end": 11,
@@ -443,11 +485,13 @@
             "title": "Εισαγωγή στα Συστήματα Ασφάλειας Πληροφοριών",
             "teacher": "ΜΑΡΚΑΤΟΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "Α.113"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 1,
                     "end": 3,
@@ -470,11 +514,13 @@
                     "end": 1,
                     "classroom": "Α.113"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "Α.113.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 3,
                     "end": 5,
@@ -487,11 +533,13 @@
             "title": "Συστήματα Ανάκτησης Πληροφοριών",
             "teacher": "ΤΖΙΤΖΙΚΑΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 9,
                     "end": 11,
                     "classroom": "Α.125"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 9,
                     "end": 12,
@@ -536,11 +584,13 @@
                     "end": 3,
                     "classroom": "Α.113"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "Α.113.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 1,
                     "end": 3,
@@ -558,11 +608,14 @@
                     "end": 7,
                     "classroom": "Η.204"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 5,
                     "end": 7,
                     "classroom": "Η.204.1"
-                }
+                },
+                "thursday": {},
+                "friday": {}
             }
         },
         "ΗΥ-485": {
@@ -570,16 +623,19 @@
             "title": "Επιστήμη Δεδομένων και Εφαρμογές",
             "teacher": "ΤΣΑΓΚΑΤΑΚΗΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 9,
                     "end": 11,
                     "classroom": "Α.113"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 9,
                     "end": 11,
                     "classroom": "Α.113.1"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-500": {
@@ -587,11 +643,15 @@
             "title": "Εισαγωγή στην Ερευνα",
             "teacher": "ΜΕΛΗ ΔΕΠ ΤΟΥ ΤΜΗΜΑΤΟΣ",
             "teaching_slots": {
+                "monday": {},
+                "tuesday": {},
+                "wednesday": {},
                 "thursday": {
                     "start": 3,
                     "end": 5,
                     "classroom": "Η.210"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-523": {
@@ -599,16 +659,19 @@
             "title": "Εργαστηριακή Σχεδίαση Ψηφιακών Κυκλωμάτων με\rΕργαλεία Ηλεκτρονικού Αυτοματισμού",
             "teacher": "ΠΑΠΑΕΥΣΤΑΘΙΟΥ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 5,
                     "end": 7,
                     "classroom": "Α.125"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 5,
                     "end": 7,
                     "classroom": "Α.125.1"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-533": {
@@ -616,16 +679,19 @@
             "title": "Εισαγωγή στην Έρευνα σε Δίκτυα Υπολογιστών",
             "teacher": "ΔΗΜΗΤΡΟΠΟΥΛΟΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "Η.206"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "Η.206.1"
-                }
+                },
+                "friday": {}
             }
         },
         "ΗΥ-534": {
@@ -638,11 +704,14 @@
                     "end": 1,
                     "classroom": "Η.206"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "Η.206.1"
-                }
+                },
+                "thursday": {},
+                "friday": {}
             }
         },
         "ΗΥ-540": {
@@ -655,11 +724,14 @@
                     "end": 11,
                     "classroom": "Η.208"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "Η.208"
-                }
+                },
+                "thursday": {},
+                "friday": {}
             }
         },
         "ΗΥ-543": {
@@ -672,11 +744,13 @@
                     "end": 5,
                     "classroom": "Η.206"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 3,
                     "end": 5,
                     "classroom": "Η.206.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 3,
                     "end": 5,
@@ -694,11 +768,13 @@
                     "end": 3,
                     "classroom": "Η.206"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "Η.206.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 1,
                     "end": 3,
@@ -716,11 +792,13 @@
                     "end": 5,
                     "classroom": "Α.125"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 3,
                     "end": 5,
                     "classroom": "Α.125.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 11,
                     "end": 1,
@@ -738,11 +816,13 @@
                     "end": 3,
                     "classroom": "Α.121"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "Α.121.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 1,
                     "end": 3,
@@ -772,11 +852,13 @@
             "title": "Συμπόρευση Ανθρώπου – Υπολογιστή",
             "teacher": "ΣΤΕΦΑΝΙΔΗΣ/ΛΕΩΝΙΔΗΣ",
             "teaching_slots": {
+                "monday": {},
                 "tuesday": {
                     "start": 5,
                     "end": 7,
                     "classroom": "Α.113"
                 },
+                "wednesday": {},
                 "thursday": {
                     "start": 11,
                     "end": 1,
@@ -799,11 +881,14 @@
                     "end": 5,
                     "classroom": "Η.204"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 3,
                     "end": 5,
                     "classroom": "Η.204.1"
-                }
+                },
+                "thursday": {},
+                "friday": {}
             }
         },
         "ΗΥ-588": {
@@ -821,6 +906,8 @@
                     "end": 5,
                     "classroom": "Η.204"
                 },
+                "wednesday": {},
+                "thursday": {},
                 "friday": {
                     "start": 3,
                     "end": 5,
@@ -838,11 +925,13 @@
                     "end": 1,
                     "classroom": "Ε.313"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 5,
                     "end": 7,
                     "classroom": "Ε.313 ΦΡΟΝΤ"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 11,
                     "end": 1,
@@ -859,7 +948,11 @@
                     "start": 2,
                     "end": 30,
                     "classroom": "-4:30\r10/2/2025  Ε.311"
-                }
+                },
+                "tuesday": {},
+                "wednesday": {},
+                "thursday": {},
+                "friday": {}
             }
         },
         "ΗΥ-673": {
@@ -872,11 +965,13 @@
                     "end": 1,
                     "classroom": "Η.210"
                 },
+                "tuesday": {},
                 "wednesday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "Η.210.1"
                 },
+                "thursday": {},
                 "friday": {
                     "start": 11,
                     "end": 1,
