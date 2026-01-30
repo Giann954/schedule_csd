@@ -58,11 +58,13 @@ function getPreviousDateWithDay(day) {
 }
 
 function parseTimeRange(hour) {
-  // Assume anything between 1–7 is afternoon/evening (PM)
-  if (hour >= 1 && hour <= 7) {
-    return hour + 12; // 1 → 13, 3 → 15, etc.
-  }
-  return hour; // leave 8–23 alone
+  if (hour == null) return null;
+
+  hour = Number(hour);
+  if (Number.isNaN(hour)) return null;
+
+  if (hour >= 1 && hour <= 7) return hour + 12;
+  return hour;
 }
 
 function compare_time_score(lesson1, lesson2) {
