@@ -12,7 +12,7 @@ days_in  = ('ΔΕΥΤΕΡΑ', 'ΤΡΙΤΗ', 'ΤΕΤΑΡΤΗ', 'ΠΕΜΠΤΗ', '�
 days_out = ('monday', 'tuesday', 'wednesday', 'thursday', 'friday')
 
 # Read PDF
-df = tabula.read_pdf(in_file, pages='all', multiple_tables=False, stream=True)[0]
+dfs = tabula.read_pdf(in_file, pages='all', multiple_tables=True, lattice=True)
 
 schedule = {}
 
@@ -87,6 +87,7 @@ with open(out_file, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
 print(f"Data extracted successfully to {out_file}")
+
 
 
 
