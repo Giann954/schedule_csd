@@ -4,9 +4,9 @@ import json
 import re
 
 # Parameters
-in_file  = './WROLOGIO PROGRAMMA XEIMERINOY E3AMHNOY 2025-26.pdf'
+in_file  = 'WROLOGIO PROGRAMMA EAERINOY E3AMHNOY 2025-26.pdf'
 out_file = 'data.json'
-version = "20/8/25"  # or parse dynamically from the PDF
+version = "30/01/2026"  # or parse dynamically from the PDF
 
 days_in  = ('ΔΕΥΤΕΡΑ', 'ΤΡΙΤΗ', 'ΤΕΤΑΡΤΗ', 'ΠΕΜΠΤΗ', 'ΠΑΡΑΣΚΕΥΗ')
 days_out = ('monday', 'tuesday', 'wednesday', 'thursday', 'friday')
