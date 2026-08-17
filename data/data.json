@@ -1,67 +1,85 @@
 {
     "version": "30/01/2026",
     "schedule": {
-        "ΗΥ-109": {
-            "code": "ΗΥ-109",
-            "title": "Αγγλικά IΙ",
-            "teacher": "ΡΙΖΟΠΟΥΛΟΥ",
+        "ΗΥ-100": {
+            "code": "ΗΥ-100",
+            "title": "Εισαγωγή στην Επιστήμη Υπολογιστών",
+            "teacher": "ΠΡΑΤΙΚΑΚΗΣ",
             "teaching_slots": {
-                "monday": {
+                "tuesday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Α.125"
+                    "classroom": "ΑΜΦ ΣΟ"
                 },
-                "wednesday": {
+                "thursday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Α.125"
+                    "classroom": "ΑΜΦ ΣΟ"
+                },
+                "friday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
                 }
             }
         },
-        "ΗΥ-111": {
-            "code": "ΗΥ-111",
-            "title": "Απειροστικός Λογισμός ΙΙ",
-            "teacher": "ΠΙΤΙΚΑΚΗΣ",
+        "ΗΥ-108": {
+            "code": "ΗΥ-108",
+            "title": "Αγγλικά Ι",
+            "teacher": "ΡΙΖΟΠΟΥΛΟΥ",
             "teaching_slots": {
-                "monday": {},
                 "tuesday": {
                     "start": 3,
                     "end": 5,
                     "classroom": "ΑΜΦ Α"
                 },
-                "wednesday": {},
-                "thursday": {
-                    "start": 5,
-                    "end": 7,
+                "wednesday": {
+                    "start": 1,
+                    "end": 3,
                     "classroom": "ΑΜΦ Α"
-                },
-                "friday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "ΑΜΦ Α ΦΡΟΝΤ"
                 }
             }
         },
-        "ΗΥ-118": {
-            "code": "ΗΥ-118",
-            "title": "Διακριτά Μαθηματικά",
-            "teacher": "ΑΡΓΥΡΟΣ",
+        "ΗΥ-110": {
+            "code": "ΗΥ-110",
+            "title": "Απειροστικός Λογισμός Ι",
+            "teacher": "ΤΣΑΓΚΑΤΑΚΗΣ",
             "teaching_slots": {
-                "monday": {},
                 "tuesday": {
                     "start": 1,
                     "end": 3,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
-                "wednesday": {},
                 "thursday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "ΑΜΦ ΣΟ.1"
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "ΑΜΦ ΣΟ"
                 },
                 "friday": {
-                    "start": 1,
-                    "end": 3,
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
+                }
+            }
+        },
+        "ΗΥ-112": {
+            "code": "ΗΥ-112",
+            "title": "Φυσική Ι",
+            "teacher": "ΚΑΦΕΝΤΖΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "ΑΜΦ ΣΟ"
+                },
+                "wednesday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "ΑΜΦ ΣΟ"
+                },
+                "friday": {
+                    "start": 9,
+                    "end": 11,
                     "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
                 }
             }
@@ -69,142 +87,28 @@
         "ΗΥ-119": {
             "code": "ΗΥ-119",
             "title": "Γραμμική Άλγεβρα",
-            "teacher": "ΤΣΑΜΑΡΔΙΝΟΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "ΑΜΦ ΣΟ"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "ΑΜΦ ΣΟ.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
-                }
-            }
-        },
-        "ΗΥ-150": {
-            "code": "ΗΥ-150",
-            "title": "Προγραμματισμός",
-            "teacher": "ΠΑΠΑΓΙΑΝΝΑΚΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "ΑΜΦ ΣΟ"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "ΑΜΦ ΣΟ.1"
-                }
-            }
-        },
-        "ΗΥ-180": {
-            "code": "ΗΥ-180",
-            "title": "Λογική",
-            "teacher": "ΠΛΕΞΟΥΣΑΚΗΣ /ΠΙΤΙΚΑΚΗΣ",
+            "teacher": "ΚΟΜΟΝΤΑΚΗΣ",
             "teaching_slots": {
                 "monday": {
                     "start": 3,
                     "end": 5,
                     "classroom": "ΑΜΦ ΣΟ"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
                 },
                 "thursday": {
                     "start": 3,
                     "end": 5,
-                    "classroom": "ΑΜΦ ΣΟ.1"
-                },
-                "friday": {}
-            }
-        },
-        "ΗΥ-209": {
-            "code": "ΗΥ-209",
-            "title": "Αγγλικά IV",
-            "teacher": "ΡΙΖΟΠΟΥΛΟΥ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Η.204"
-                },
-                "wednesday": {},
-                "thursday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Η.204.1"
-                },
-                "friday": {}
-            }
-        },
-        "ΗΥ-215": {
-            "code": "ΗΥ-215",
-            "title": "Εφαρμοσμένα Μαθηματικά για Μηχανικούς",
-            "teacher": "ΣΤΥΛΙΑΝΟΥ / ΚΑΦΕΝΤΖΗΣ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 9,
-                    "end": 11,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
-                "wednesday": {},
-                "thursday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "ΑΜΦ ΣΟ.1"
-                },
                 "friday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "ΑΜΦ Α ΦΡΟΝΤ"
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
                 }
             }
         },
-        "ΗΥ-220": {
-            "code": "ΗΥ-220",
-            "title": "Εργαστήριο Ψηφιακών Κυκλωμάτων",
-            "teacher": "ΠΑΠΑΕΥΣΤΑΘΙΟΥ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Α.125"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Α.125.1"
-                },
-                "thursday": {},
-                "friday": {}
-            }
-        },
-        "ΗΥ-225": {
-            "code": "ΗΥ-225",
-            "title": "Οργάνωση Υπολογιστών",
+        "ΗΥ-120": {
+            "code": "ΗΥ-120",
+            "title": "Ψηφιακή Σχεδίαση",
             "teacher": "ΚΑΤΕΒΑΙΝΗΣ",
             "teaching_slots": {
                 "monday": {
@@ -212,47 +116,38 @@
                     "end": 1,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
-                "tuesday": {},
                 "wednesday": {
                     "start": 11,
                     "end": 1,
-                    "classroom": "ΑΜΦ ΣΟ.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "ΑΜΦ ΣΟ.2"
-                }
-            }
-        },
-        "ΗΥ-255": {
-            "code": "ΗΥ-255",
-            "title": "Εργαστήριο Λογισμικού",
-            "teacher": "ΜΠΙΛΑΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 9,
-                    "end": 11,
                     "classroom": "ΑΜΦ ΣΟ"
                 },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "ΑΜΦ ΣΟ.1"
-                },
-                "thursday": {},
                 "friday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "ΑΜΦ ΣΟ"
                 }
             }
         },
-        "ΗΥ-317": {
-            "code": "ΗΥ-317",
-            "title": "Εφαρμοσμένες Στοχαστικές Διαδικασίες",
+        "ΗΥ-208": {
+            "code": "ΗΥ-208",
+            "title": "Αγγλικά ΙΙΙ",
+            "teacher": "ΡΙΖΟΠΟΥΛΟΥ",
+            "teaching_slots": {
+                "tuesday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Α.113"
+                },
+                "thursday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Α.113"
+                }
+            }
+        },
+        "ΗΥ-217": {
+            "code": "ΗΥ-217",
+            "title": "Πιθανότητες",
             "teacher": "ΤΣΑΚΑΛΙΔΗΣ",
             "teaching_slots": {
                 "monday": {
@@ -266,331 +161,71 @@
                     "classroom": "ΑΜΦ Α"
                 },
                 "friday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "ΑΜΦ Α ΦΡΟΝΤ"
+                }
+            }
+        },
+        "ΗΥ-240": {
+            "code": "ΗΥ-240",
+            "title": "Δομές Δεδομένων",
+            "teacher": "ΦΑΤΟΥΡΟΥ",
+            "teaching_slots": {
+                "tuesday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "ΑΜΦ Α"
+                },
+                "thursday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "ΑΜΦ Α"
+                },
+                "friday": {
                     "start": 11,
                     "end": 1,
                     "classroom": "ΑΜΦ Α ΦΡΟΝΤ"
                 }
             }
         },
-        "ΗΥ-335": {
-            "code": "ΗΥ-335",
-            "title": "Δίκτυα Υπολογιστών",
-            "teacher": "ΔΗΜΗΤΡΟΠΟΥΛΟΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Α.113"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Α.113.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "ΑΜΦ Α ΦΡΟΝΤ"
-                }
-            }
-        },
-        "ΗΥ-340": {
-            "code": "ΗΥ-340",
-            "title": "Γλώσσες και Μεταφραστές",
-            "teacher": "ΣΑΒΒΙΔΗΣ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "ΑΜΦ Α"
-                },
-                "wednesday": {},
-                "thursday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "ΑΜΦ Α ΦΡΟΝΤ"
-                },
-                "friday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Α.113"
-                }
-            }
-        },
-        "ΗΥ-342": {
-            "code": "ΗΥ-342",
-            "title": "Παράλληλος Προγραμματισμός",
-            "teacher": "ΠΡΑΤΙΚΑΚΗΣ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Η.204"
-                },
-                "wednesday": {},
-                "thursday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Η.204.1"
-                },
-                "friday": {}
-            }
-        },
-        "ΗΥ-351": {
-            "code": "ΗΥ-351",
-            "title": "Ανάλυση και Σχεδίαση Πληροφοριακών Συστημάτων",
-            "teacher": "ΜΑΡΓΕΤΗΣ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Α.121"
-                },
-                "wednesday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Α.125 ΦΡΟΝΤ"
-                },
-                "thursday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Α.121.1"
-                },
-                "friday": {}
-            }
-        },
-        "ΗΥ-364": {
-            "code": "ΗΥ-364",
-            "title": "Εισαγωγή στην Αλληλεπίδραση Ανθρώπου-\rΥπολογιστή",
-            "teacher": "ΛΕΩΝΙΔΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "ΑΜΦ Α"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "ΑΜΦ Α.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Η.204 ΦΡΟΝΤ"
-                }
-            }
-        },
-        "ΗΥ-380": {
-            "code": "ΗΥ-380",
-            "title": "Αλγόριθμοι και Πολυπλοκότητα",
-            "teacher": "ΤΟΛΛΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "ΑΜΦ Α"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "ΑΜΦ Α.1"
-                },
-                "thursday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "ΑΜΦ ΣΟ ΦΡΟΝΤ"
-                },
-                "friday": {}
-            }
-        },
-        "ΗΥ-428": {
-            "code": "ΗΥ-428",
-            "title": "Εργαστήριο Ενσωματωμένων Συστημάτων",
-            "teacher": "ΜΠΙΛΑΣ / ΜΑΡΑΖΑΚΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Α.121"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Α.121.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Α.121 ΦΡΟΝΤ"
-                }
-            }
-        },
-        "ΗΥ-435": {
-            "code": "ΗΥ-435",
-            "title": "Εργαστήριο Τεχνολογίας και Προγραμματισμού\rΔικτύων Ι",
-            "teacher": "ΠΑΠΑΔΑΚΗΣ ΣΤ.",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Η.210"
-                },
-                "wednesday": {},
-                "thursday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Η.210.1"
-                },
-                "friday": {}
-            }
-        },
-        "ΗΥ-446": {
-            "code": "ΗΥ-446",
-            "title": "Συστήματα Εκτέλεσης Δυναμικών Γλωσσών\rΠρογραμματισμού",
-            "teacher": "ΖΑΚΚΑΚ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Η.210"
-                },
-                "wednesday": {},
-                "thursday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Η.210.1"
-                },
-                "friday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Η.210 ΦΡΟΝΤ"
-                }
-            }
-        },
-        "ΗΥ-457": {
-            "code": "ΗΥ-457",
-            "title": "Εισαγωγή στα Συστήματα Ασφάλειας Πληροφοριών",
-            "teacher": "ΜΑΡΚΑΤΟΣ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Α.113"
-                },
-                "wednesday": {},
-                "thursday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Α.113.1"
-                },
-                "friday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Η.204 ΦΡΟΝΤ"
-                }
-            }
-        },
-        "ΗΥ-460": {
-            "code": "ΗΥ-460",
-            "title": "Συστήματα Διαχείρισης Βάσεων Δεδομένων",
-            "teacher": "ΚΟΝΔΥΛΑΚΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Α.113"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Α.113.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Η.210 ΦΡΟΝΤ"
-                }
-            }
-        },
-        "ΗΥ-463": {
-            "code": "ΗΥ-463",
-            "title": "Συστήματα Ανάκτησης Πληροφοριών",
+        "ΗΥ-252": {
+            "code": "ΗΥ-252",
+            "title": "Αντικειμενοστρεφής Προγραμματισμός",
             "teacher": "ΤΖΙΤΖΙΚΑΣ",
             "teaching_slots": {
-                "monday": {},
                 "tuesday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Α.125"
+                    "classroom": "ΑΜΦ Α"
                 },
-                "wednesday": {},
                 "thursday": {
                     "start": 9,
-                    "end": 12,
-                    "classroom": "Α.125"
+                    "end": 11,
+                    "classroom": "ΑΜΦ Α"
                 },
                 "friday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Α.121 ΦΡΟΝΤ"
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "ΑΜΦ Α ΦΡΟΝΤ"
                 }
             }
         },
-        "ΗΥ-471": {
-            "code": "ΗΥ-471",
-            "title": "Ανάλυση Εικόνων",
-            "teacher": "ΟΙΚΟΝΟΜΙΔΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Η.204"
-                },
-                "wednesday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Η.204"
-                },
-                "friday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Η.204 ΦΡΟΝΤ"
-                }
-            }
-        },
-        "ΗΥ-473": {
-            "code": "ΗΥ-473",
-            "title": "Αναγνώριση Προτύπων",
-            "teacher": "ΤΡΑΧΑΝΙΑΣ",
+        "ΗΥ-280": {
+            "code": "ΗΥ-280",
+            "title": "Θεωρία Υπολογισμού",
+            "teacher": "ΤΣΟΥΡΑΚΑΚΗΣ",
             "teaching_slots": {
                 "monday": {
                     "start": 1,
                     "end": 3,
-                    "classroom": "Α.113"
+                    "classroom": "ΑΜΦ ΣΟ"
                 },
-                "tuesday": {},
                 "wednesday": {
                     "start": 1,
                     "end": 3,
-                    "classroom": "Α.113.1"
+                    "classroom": "ΑΜΦ ΣΟ"
                 },
-                "thursday": {},
                 "friday": {
                     "start": 1,
                     "end": 3,
@@ -598,44 +233,341 @@
                 }
             }
         },
-        "ΗΥ-475": {
-            "code": "ΗΥ-475",
-            "title": "Αυτόνομη Ρομποτική Πλοήγηση",
-            "teacher": "ΤΡΑΧΑΝΙΑΣ",
+        "ΗΥ-330": {
+            "code": "ΗΥ-330",
+            "title": "Εισαγωγή στη Θεωρία των Τηλεπικοινωνιακών\rΣυστημάτων",
+            "teacher": "ΠΑΠΑΔΑΚΗΣ ΣΤ.",
             "teaching_slots": {
                 "monday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Η.204"
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Α.125"
                 },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Η.204.1"
-                },
-                "thursday": {},
-                "friday": {}
+                "thursday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Α.125"
+                }
             }
         },
-        "ΗΥ-485": {
-            "code": "ΗΥ-485",
-            "title": "Επιστήμη Δεδομένων και Εφαρμογές",
-            "teacher": "ΤΣΑΓΚΑΤΑΚΗΣ",
+        "ΗΥ-345": {
+            "code": "ΗΥ-345",
+            "title": "Λειτουργικά Συστήματα",
+            "teacher": "ΜΑΡΚΑΤΟΣ",
             "teaching_slots": {
-                "monday": {},
+                "tuesday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "ΑΜΦ Α"
+                },
+                "thursday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "ΑΜΦ Α"
+                },
+                "friday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "ΑΜΦ Α ΦΡΟΝΤ"
+                }
+            }
+        },
+        "ΗΥ-352": {
+            "code": "ΗΥ-352",
+            "title": "Τεχνολογία Λογισμικού",
+            "teacher": "ΣΑΒΒΙΔΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Α.117"
+                },
+                "tuesday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Α.117 ΦΡΟΝΤ"
+                },
+                "friday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Α.117"
+                }
+            }
+        },
+        "ΗΥ-358": {
+            "code": "ΗΥ-358",
+            "title": "Γραφική",
+            "teacher": "ΤΡΑΧΑΝΙΑΣ/ΚΑΜΑΡΙΑΝΑΚΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Α.117"
+                },
+                "wednesday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Α.117"
+                },
+                "thursday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "Α.117 ΦΡΟΝΤ"
+                }
+            }
+        },
+        "ΗΥ-359": {
+            "code": "ΗΥ-359",
+            "title": "Διαδικτυοκεντρικός Προγραμματισμός",
+            "teacher": "ΜΟΥΝΤΑΝΤΩΝΑΚΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Α.113"
+                },
+                "wednesday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Α.113 ΦΡΟΝΤ"
+                },
+                "thursday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Α.113"
+                }
+            }
+        },
+        "ΗΥ-360": {
+            "code": "ΗΥ-360",
+            "title": "Αρχεία και Βάσεις Δεδομένων",
+            "teacher": "ΠΛΕΞΟΥΣΑΚΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "ΑΜΦ Α"
+                },
+                "wednesday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "ΑΜΦ Α"
+                },
+                "friday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Α.113 ΦΡΟΝΤ"
+                }
+            }
+        },
+        "ΗΥ-370": {
+            "code": "ΗΥ-370",
+            "title": "Ψηφιακή Επεξεργασία Σημάτων",
+            "teacher": "ΣΤΥΛΙΑΝΟΥ",
+            "teaching_slots": {
                 "tuesday": {
                     "start": 9,
                     "end": 11,
                     "classroom": "Α.113"
                 },
-                "wednesday": {},
                 "thursday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Α.113.1"
+                    "classroom": "Α.113"
                 },
-                "friday": {}
+                "friday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Α.125 ΕΡΓ/ΡΙΟ"
+                }
+            }
+        },
+        "ΗΥ-371": {
+            "code": "ΗΥ-371",
+            "title": "Ψηφιακή Επεξεργασία Εικόνων",
+            "teacher": "ΚΟΜΟΝΤΑΚΗΣ",
+            "teaching_slots": {
+                "tuesday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Η.208"
+                },
+                "wednesday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Η.208"
+                },
+                "friday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Α.125 ΦΡΟΝΤ"
+                }
+            }
+        },
+        "ΗΥ-425": {
+            "code": "ΗΥ-425",
+            "title": "Αρχιτεκτονική Υπολογιστικών Συστημάτων",
+            "teacher": "ΠΑΠΑΕΥΣΤΑΘΙΟΥ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Η.204"
+                },
+                "wednesday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Η.204"
+                },
+                "friday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Η.204"
+                }
+            }
+        },
+        "ΗΥ-452": {
+            "code": "ΗΥ-452",
+            "title": "Εισαγωγή στην Επιστήμη και την Τεχνολογία των\rΥπηρεσιών",
+            "teacher": "ΜΑΓΚΟΥΤΗΣ/ΠΙΤΙΚΑΚΗΣ/ΜΠΙΤΣΑΚΗ/ΖΕΓ\rΚΙΝΗΣ",
+            "teaching_slots": {
+                "tuesday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Η.210"
+                },
+                "thursday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Η.210"
+                },
+                "friday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "Η.210"
+                }
+            }
+        },
+        "ΗΥ-459": {
+            "code": "ΗΥ-459",
+            "title": "Εργαστήριο Μετρήσεων Διαδικτύου",
+            "teacher": "ΔΗΜΗΤΡΟΠΟΥΛΟΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Α.113"
+                },
+                "wednesday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Α.113"
+                }
+            }
+        },
+        "ΗΥ-469": {
+            "code": "ΗΥ-469",
+            "title": "Σύγχρονα Θέματα Αλληλεπίδρασης Ανθρώπου-\rΥπολογιστή",
+            "teacher": "ΛΕΩΝΙΔΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Α.113"
+                },
+                "wednesday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Α.113"
+                },
+                "friday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Α.113"
+                }
+            }
+        },
+        "ΗΥ-472": {
+            "code": "ΗΥ-472",
+            "title": "Υπολογιστική Όραση",
+            "teacher": "ΑΡΓΥΡΟΣ",
+            "teaching_slots": {
+                "tuesday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Ε.313"
+                },
+                "thursday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Ε.313"
+                },
+                "friday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Ε.313 ΦΡΟΝΤ"
+                }
+            }
+        },
+        "ΗΥ-484": {
+            "code": "ΗΥ-484",
+            "title": "Δυναμική Πολύπλοκων Δικτύων",
+            "teacher": "ΘΕΣΗ ΔΙΔΑΚΤΙΚΗΣ ΕΜΠΕΙΡΙΑΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "Η.206"
+                },
+                "wednesday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "Η.206"
+                },
+                "friday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "Η.206 ΦΡΟΝΤ"
+                }
+            }
+        },
+        "ΗΥ-487": {
+            "code": "ΗΥ-487",
+            "title": "Εισαγωγή στην Τεχνητή Νοημοσύνη",
+            "teacher": "ΤΣΑΜΑΡΔΙΝΟΣ/ΠΙΤΙΚΑΚΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Α.117"
+                },
+                "tuesday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Α.117 ΦΡΟΝΤ"
+                },
+                "thursday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Α.117"
+                }
+            }
+        },
+        "ΗΥ-489": {
+            "code": "ΗΥ-489",
+            "title": "Διαχείριση Δεδομένων στην Υγεία",
+            "teacher": "ΚΟΝΔΥΛΑΚΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Η.210"
+                },
+                "wednesday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Η.210"
+                }
             }
         },
         "ΗΥ-500": {
@@ -643,339 +575,258 @@
             "title": "Εισαγωγή στην Ερευνα",
             "teacher": "ΜΕΛΗ ΔΕΠ ΤΟΥ ΤΜΗΜΑΤΟΣ",
             "teaching_slots": {
-                "monday": {},
-                "tuesday": {},
-                "wednesday": {},
                 "thursday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Η.210"
-                },
-                "friday": {}
-            }
-        },
-        "ΗΥ-523": {
-            "code": "ΗΥ-523",
-            "title": "Εργαστηριακή Σχεδίαση Ψηφιακών Κυκλωμάτων με\rΕργαλεία Ηλεκτρονικού Αυτοματισμού",
-            "teacher": "ΠΑΠΑΕΥΣΤΑΘΙΟΥ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Α.125"
-                },
-                "wednesday": {},
-                "thursday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Α.125.1"
-                },
-                "friday": {}
-            }
-        },
-        "ΗΥ-533": {
-            "code": "ΗΥ-533",
-            "title": "Εισαγωγή στην Έρευνα σε Δίκτυα Υπολογιστών",
-            "teacher": "ΔΗΜΗΤΡΟΠΟΥΛΟΣ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Η.206"
-                },
-                "wednesday": {},
-                "thursday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Η.206.1"
-                },
-                "friday": {}
-            }
-        },
-        "ΗΥ-534": {
-            "code": "ΗΥ-534",
-            "title": "Αρχιτεκτονική Μεταγωγέων Πακέτων",
-            "teacher": "ΧΡΥΣΟΣ",
-            "teaching_slots": {
-                "monday": {
                     "start": 11,
                     "end": 1,
-                    "classroom": "Η.206"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Η.206.1"
-                },
-                "thursday": {},
-                "friday": {}
+                    "classroom": "Α.117"
+                }
             }
         },
-        "ΗΥ-540": {
-            "code": "ΗΥ-540",
-            "title": "Προχωρημένα Θέματα Ανάπτυξης Γλωσσών\rΠρογραμματισμού",
-            "teacher": "ΣΑΒΒΙΔΗΣ",
+        "ΗΥ-508": {
+            "code": "ΗΥ-508",
+            "title": "Τεχνική Συγγραφή στα Αγγλικά",
+            "teacher": "ΡΙΖΟΠΟΥΛΟΥ",
             "teaching_slots": {
-                "monday": {
+                "tuesday": {
                     "start": 9,
                     "end": 11,
-                    "classroom": "Η.208"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Η.208"
-                },
-                "thursday": {},
-                "friday": {}
-            }
-        },
-        "ΗΥ-543": {
-            "code": "ΗΥ-543",
-            "title": "Συστήματα Λογισμικού και Τεχνολογίες για\rΕφαρμογές Μεγάλου Όγκου Δεδομένων",
-            "teacher": "ΜΠΙΛΑΣ / ΚΟΖΑΝΙΤΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Η.206"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Η.206.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Η.206.2"
-                }
-            }
-        },
-        "ΗΥ-548": {
-            "code": "ΗΥ-548",
-            "title": "Αρχιτεκτονικές Λογισμικού για το Υπολογιστικό\rΝέφος",
-            "teacher": "ΜΠΙΛΑΣ / ΧΑΖΑΠΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Η.206"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Η.206.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Η.206.2"
-                }
-            }
-        },
-        "ΗΥ-553": {
-            "code": "ΗΥ-553",
-            "title": "Διαδραστικά Γραφικά Υπολογιστών",
-            "teacher": "ΠΑΠΑΓΙΑΝΝΑΚΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Α.125"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Α.125.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Α.125"
-                }
-            }
-        },
-        "ΗΥ-563": {
-            "code": "ΗΥ-563",
-            "title": "Προχωρημένα Θέματα Ανάκτησης Πληροφοριών",
-            "teacher": "ΠΑΠΑΝΤΩΝΙΟΥ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Α.121"
-                },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Α.121.1"
-                },
-                "thursday": {},
-                "friday": {
-                    "start": 1,
-                    "end": 3,
-                    "classroom": "Α.121.2"
-                }
-            }
-        },
-        "ΗΥ-565": {
-            "code": "ΗΥ-565",
-            "title": "Συστήματα Διαχείρισης Διεργασιών",
-            "teacher": "ΖΕΓΚΙΝΗΣ",
-            "teaching_slots": {
-                "wednesday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Α.121"
-                },
-                "thursday": {
-                    "start": 9,
-                    "end": 11,
-                    "classroom": "Α.121"
-                }
-            }
-        },
-        "ΗΥ-569": {
-            "code": "ΗΥ-569",
-            "title": "Συμπόρευση Ανθρώπου – Υπολογιστή",
-            "teacher": "ΣΤΕΦΑΝΙΔΗΣ/ΛΕΩΝΙΔΗΣ",
-            "teaching_slots": {
-                "monday": {},
-                "tuesday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Α.113"
-                },
-                "wednesday": {},
-                "thursday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Α.113"
-                },
-                "friday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Α.113.1"
-                }
-            }
-        },
-        "ΗΥ-587": {
-            "code": "ΗΥ-587",
-            "title": "Νευρωνικά Δίκτυα και Μάθηση Ιεραρχικών\rΑναπαραστάσεων",
-            "teacher": "ΚΟΜΟΝΤΑΚΗΣ",
-            "teaching_slots": {
-                "monday": {
-                    "start": 3,
-                    "end": 5,
                     "classroom": "Η.204"
                 },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Η.204.1"
-                },
-                "thursday": {},
-                "friday": {}
+                "thursday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Η.204"
+                }
             }
         },
-        "ΗΥ-588": {
-            "code": "ΗΥ-588",
-            "title": "Ανάλυση και Μοντελοποίηση Δικτύων του Εγκεφάλου",
-            "teacher": "ΠΑΠΑΔΟΠΟΥΛΗ",
+        "ΗΥ-527": {
+            "code": "ΗΥ-527",
+            "title": "Αρχιτεκτονική Παράλληλων Υπολογιστών",
+            "teacher": "ΜΠΙΛΑΣ",
             "teaching_slots": {
                 "monday": {
                     "start": 5,
                     "end": 7,
-                    "classroom": "Α.113"
+                    "classroom": "Η.208"
                 },
-                "tuesday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Η.204"
+                "wednesday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "Η.208"
                 },
-                "wednesday": {},
-                "thursday": {},
                 "friday": {
-                    "start": 3,
-                    "end": 5,
-                    "classroom": "Α.125"
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "Η.208"
                 }
             }
         },
-        "ΗΥ-590.45": {
-            "code": "ΗΥ-590.45",
-            "title": "Σύγχρονα Θέματα Κλιμακώσιμων Συστημάτων\rΑποθήκευσης",
+        "ΗΥ-542": {
+            "code": "ΗΥ-542",
+            "title": "Τεχνολογίες Νέφους, Ακμών Δικτύου και Ομίχλης",
+            "teacher": "ΚΡΗΤΙΚΟΣ",
+            "teaching_slots": {
+                "tuesday": {
+                    "start": 11,
+                    "end": 1,
+                    "classroom": "Η.206"
+                },
+                "thursday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Η.206"
+                }
+            }
+        },
+        "ΗΥ-546": {
+            "code": "ΗΥ-546",
+            "title": "Τύποι και Γλώσσες Προγραμματισμού",
+            "teacher": "ΠΡΑΤΙΚΑΚΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Η.206"
+                },
+                "wednesday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Η.206"
+                }
+            }
+        },
+        "ΗΥ-552": {
+            "code": "ΗΥ-552",
+            "title": "Τεχνητή Νοημοσύνη και Μηχανική Μάθηση στην\rΚυβερνοασφάλεια",
+            "teacher": "ΜΑΡΚΑΤΟΣ/ΜΑΝΙΦΑΒΑΣ",
+            "teaching_slots": {
+                "tuesday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Η.208"
+                },
+                "friday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Η.208"
+                }
+            }
+        },
+        "ΗΥ-559": {
+            "code": "ΗΥ-559",
+            "title": "Τεχνολογίες Υποδομών για Υπηρεσίες Μεγάλης\rΚλίμακας",
             "teacher": "ΜΑΓΚΟΥΤΗΣ",
             "teaching_slots": {
-                "monday": {
-                    "start": 11,
-                    "end": 1,
+                "thursday": {
+                    "start": 3,
+                    "end": 5,
                     "classroom": "Ε.313"
                 },
-                "tuesday": {},
-                "wednesday": {
-                    "start": 5,
-                    "end": 7,
-                    "classroom": "Ε.313 ΦΡΟΝΤ"
-                },
-                "thursday": {},
                 "friday": {
-                    "start": 11,
-                    "end": 1,
-                    "classroom": "Ε.313.1"
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Ε.313"
                 }
             }
         },
-        "ΗΥ-590.73": {
-            "code": "ΗΥ-590.73",
-            "title": "Seminar in Reproducibility in Bioinformatics",
-            "teacher": "ΣΤΑΜΑΤΑΚΗΣ",
+        "ΗΥ-561": {
+            "code": "ΗΥ-561",
+            "title": "Διαχείριση Δεδομένων στον Παγκόσμιο Ιστό",
+            "teacher": "ΤΖΙΤΖΙΚΑΣ",
             "teaching_slots": {
-                "monday": {
-                    "start": 2,
-                    "end": 30,
-                    "classroom": "-4:30\r10/2/2025  Ε.311"
+                "tuesday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Α.125"
                 },
-                "tuesday": {},
-                "wednesday": {},
-                "thursday": {},
-                "friday": {}
+                "thursday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Α.125"
+                }
             }
         },
-        "ΗΥ-673": {
-            "code": "ΗΥ-673",
-            "title": "Εισαγωγή στην Βαθειά Παραγωγική Μάθηση",
-            "teacher": "ΣΤΥΛΙΑΝΟΥ/ΠΑΝΤΑΖΗΣ",
+        "ΗΥ-562": {
+            "code": "ΗΥ-562",
+            "title": "Προχωρημένα Θέματα Βάσεων Δεδομένων",
+            "teacher": "ΚΟΝΔΥΛΑΚΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Η.208"
+                },
+                "wednesday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Η.208"
+                }
+            }
+        },
+        "ΗΥ-573": {
+            "code": "ΗΥ-573",
+            "title": "Μέθοδοι βελτιστοποίησης",
+            "teacher": "ΤΣΑΓΚΑΤΑΚΗΣ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Η.210"
+                },
+                "wednesday": {
+                    "start": 1,
+                    "end": 3,
+                    "classroom": "Η.210"
+                }
+            }
+        },
+        "ΗΥ-575": {
+            "code": "ΗΥ-575",
+            "title": "Εργαστήριο Ρομποτικής Πλοήγησης",
+            "teacher": "ΤΡΑΧΑΝΙΑΣ",
+            "teaching_slots": {
+                "tuesday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Η.210"
+                },
+                "thursday": {
+                    "start": 3,
+                    "end": 5,
+                    "classroom": "Η.210"
+                }
+            }
+        },
+        "ΗΥ-577": {
+            "code": "ΗΥ-577",
+            "title": "Μηχανική Μάθηση",
+            "teacher": "ΤΣΑΜΑΡΔΙΝΟΣ",
             "teaching_slots": {
                 "monday": {
                     "start": 11,
                     "end": 1,
-                    "classroom": "Η.210"
+                    "classroom": "Η.204"
                 },
-                "tuesday": {},
                 "wednesday": {
                     "start": 11,
                     "end": 1,
-                    "classroom": "Η.210.1"
+                    "classroom": "Η.204"
                 },
-                "thursday": {},
                 "friday": {
                     "start": 11,
                     "end": 1,
-                    "classroom": "Η.210 ΦΡΟΝΤ"
+                    "classroom": "Η.204 ΦΡΟΝΤ"
+                }
+            }
+        },
+        "ΗΥ-578": {
+            "code": "ΗΥ-578",
+            "title": "Επεξεργασία Φωνής",
+            "teacher": "ΣΤΥΛΙΑΝΟΥ",
+            "teaching_slots": {
+                "monday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Η.206 ΦΡΟΝΤ"
+                },
+                "wednesday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Η.206"
+                },
+                "friday": {
+                    "start": 9,
+                    "end": 11,
+                    "classroom": "Η.206"
+                }
+            }
+        },
+        "ΗΥ-590.72": {
+            "code": "ΗΥ-590.72",
+            "title": "Introduction to Bioinformatics for Computer Scientists",
+            "teacher": "ΣΤΑΜΑΤΑΚΗΣ",
+            "teaching_slots": {
+                "friday": {
+                    "start": 10,
+                    "end": 0,
+                    "classroom": "-12:30  Κ.206"
+                }
+            }
+        },
+        "ΗΥ-672": {
+            "code": "ΗΥ-672",
+            "title": "Προχωρημένα Θέματα Υπολογιστικής Όρασης",
+            "teacher": "ΑΡΓΥΡΟΣ",
+            "teaching_slots": {
+                "tuesday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "Ε.311"
+                },
+                "thursday": {
+                    "start": 5,
+                    "end": 7,
+                    "classroom": "Ε.311"
                 }
             }
         }
