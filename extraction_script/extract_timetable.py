@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 out_file = BASE_DIR / "data" / "data.json"
 
 # Parameters
-in_file  = 'extraction_script/WROLOGIO PROGRAMMA EAERINOY E3AMHNOY 2025-26.pdf'
+in_file  = "extraction_script/Wrologio_Programma_FTHIN_2026-27_v.1_31-7-2026.pdf"
 version = "30/01/2026"  # or parse dynamically from the PDF
 
 days_in  = ('ΔΕΥΤΕΡΑ', 'ΤΡΙΤΗ', 'ΤΕΤΑΡΤΗ', 'ΠΕΜΠΤΗ', 'ΠΑΡΑΣΚΕΥΗ')
@@ -53,30 +53,30 @@ for i, df in enumerate(dfs):
             schedule[course["code"]] = course
             last_course = course
 
-    if df.empty:
-        cols = list(df.columns)
-        code = cols[0]
-        title = cols[1]
-        teacher = cols[2]
-        course = {
-            "code": code,
-            "title": title,
-            "teacher": teacher,
-            "teaching_slots": {}
-        }
-        DAY_COL_START = 3  # iloc index where Monday starts
+    # if df.empty:
+    #     cols = list(df.columns)
+    #     code = cols[0]
+    #     title = cols[1]
+    #     teacher = cols[2]
+    #     course = {
+    #         "code": code,
+    #         "title": title,
+    #         "teacher": teacher,
+    #         "teaching_slots": {}
+    #     }
+    #     DAY_COL_START = 3  # iloc index where Monday starts
 
-        for i, day_out in enumerate(days_out):
-            cell = cols[DAY_COL_START + i]
-            slot = parse_time_slot(cell)
-            if slot:
-                course["teaching_slots"][day_out] = slot
-            else:
-                course["teaching_slots"][day_out] = {}
+    #     for i, day_out in enumerate(days_out):
+    #         cell = cols[DAY_COL_START + i]
+    #         slot = parse_time_slot(cell)
+    #         if slot:
+    #             course["teaching_slots"][day_out] = slot
+    #         else:
+    #             course["teaching_slots"][day_out] = {}
 
-        if code not in schedule:
-            schedule[code] = course
-            last_course = course
+    #     if code not in schedule:
+    #         schedule[code] = course
+    #         last_course = course
 
 # Write to JS file
 data = {
